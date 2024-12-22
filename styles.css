@@ -1,0 +1,26 @@
+html,
+body {
+  all: unset;
+}
+
+/* This is the style for the time Container */
+.container {
+  /* Set the width and height to take the whole space */
+  width: 100vw;
+  height: 100vh;
+
+  /* Centering the elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Dark background light text */
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+/* We set the font size and font family of the Time */
+h1 {
+  font-size: 15em;
+  font-family: "Space Mono", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
