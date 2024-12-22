@@ -24,3 +24,32 @@ h1 {
   font-size: 15em;
   font-family: "Space Mono", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+@media only screen and (max-width: 992px) {
+  .c {
+    display: none;
+  }
+  h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 11em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 10em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 12em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  h1 {
+    font-size: 15em;
+  }
+}
